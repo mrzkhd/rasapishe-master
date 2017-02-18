@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">رساپیشه</string>
+    <string name="btn_nearby_business">اطراف من</string>
+    <string name="btn_category_business">مشاغل</string>
+    <string name="btn_favorite_business">علاقه مندی ها</string>
+    <string name="btn_member_business">عضویت ها</string>
+    <string name="btn_recipt">پرداخت های من \n مدیریت پرداخت ها وصورتحساب ها</string>
+    <string name="btn_new_business">ثبت شغل جدید</string>
+    <string name="btn_my_business">مشاغل من</string>
+    <string name="title_business_list">مشاغل</string>
+    <string name="title_business_detail">Business Detail</string>
+    <string name="action_share">اشتراک گذاری</string>
+    <string name="action_like">لایک</string>
+    <string name="action_member">مشتری</string>
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB8rhUqyDGHOfw9iobGIymMjNOpXQB3eAc</string>
+    <string name="ok_button_text">تایید</string>
+    <string name="cancel_button_text">انصراف</string>
+    <string name="membership_dialog_title">هشدار</string>
+    <string name="membership_dialog_text">آیا می خواید مشتری این کسب و کار شوید؟</string>
+    <string name="title_factor">صدور صورتحساب</string>
+    <string name="PeriodicalFactor">صورتحساب دوره ای</string>
+    <string name="normalFactor">صورتحساب یک باره</string>
+    <string name="success_factor_dialog_text">صورتحساب با موفقیت صادر شد.</string>
+    <string name="title_factor_list">پرداخت های من</string>
+    <string name="pay_dialog_text">آیا می خواهید این صورتحساب پرداخت شود؟</string>
+    <string name="yes_button_text">بله</string>
+    <string name="no_button_text">خیر</string>
+    <string name="title_activity_login">ورود</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="business_name_cafe_raees"> کافی شاپ و رستوران رئیس</string>
+    <string name="customer_management">مدیریت مشتریان</string>
+    <string name="financial_reports">گزارشات مالی</string>
+    <string name="boot_screen_message">رسا پیشه</string>
+    <string name="sedaye_rasa">صدای رسا کسب و کار شما</string>
+    <string name="login_failed_dialog_title">خطا در لاگین</string>
+    <string name="login_boom_failed_dialog_title">خطا در لاگین توسن بوم</string>
+    <string name="login_failed_dialog_text">لطفا دوباره تلاش کنید.</string>
+    <string name="transfer_failed_dialog_title">خطا در انتقال وجه</string>
+    <string name="transfer_success_dialog_title">انتقال وجه موفق</string>
+    <string name="loading_text">لطفا تا پایان اجرای درخواست منتظر بمانید.</string>
+</resources>

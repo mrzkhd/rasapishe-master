@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.rasapishe.customer.screen.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/inc_appbarlayout" />
+
+        <ImageView
+            android:id="@+id/ad_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banner"/>
+
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="#e9dede"
+            android:visibility="gone"/>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <Button
+                android:id="@+id/allBusinessButton"
+                style="@style/BtnRaised"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/md_red_800"
+                android:drawableLeft="@mipmap/ic_all_business"
+                android:text="@string/btn_category_business"
+                android:textSize="20sp"
+                android:theme="@style/BtnRaised.color1"/>
+
+            <Button
+                android:id="@+id/nearbyButton"
+                style="@style/BtnRaised"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/md_amber_700"
+                android:drawableLeft="@mipmap/ic_nearby"
+                android:text="@string/btn_nearby_business"
+                android:textSize="20sp"
+                android:theme="@style/BtnRaised.color2"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <Button
+                android:id="@+id/membershipButton"
+                style="@style/BtnRaised"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/md_green_500"
+                android:drawableLeft="@mipmap/ic_membership"
+                android:text="@string/btn_member_business"
+                android:textSize="20sp"
+                android:theme="@style/BtnRaised.color3"/>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/BtnRaised"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/md_cyan_700"
+                android:drawableLeft="@mipmap/ic_like"
+                android:text="@string/btn_favorite_business"
+                android:textSize="20sp"
+                android:theme="@style/BtnRaised.color4"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15">
+
+            <Button
+                android:id="@+id/factors_button"
+                style="@style/BtnRaised"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/ic_pardakht"
+                android:text="@string/btn_recipt"
+                android:textSize="20sp"
+                android:theme="@style/BtnRaised.color5"/>
+        </TableRow>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
