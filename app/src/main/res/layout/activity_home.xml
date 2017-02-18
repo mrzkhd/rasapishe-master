@@ -87,7 +87,7 @@
                 android:theme="@style/BtnRaised.color3"/>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button_favorite"
                 style="@style/BtnRaised"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
